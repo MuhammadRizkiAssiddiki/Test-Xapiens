@@ -1,0 +1,31 @@
+1. Go adalah bahasa pemrogaraman yang dikembangkan di Google pada tahun 2007 oleh  Robert Griesemer, Rob Pike, dan Ken Thompson
+dan mulai diperkenalkan ke publik pada tahun 2009.
+Go atau biasa dikenal dengan Golang dapat digunakan sebagai bahasa Backend dalam pengembangan aplikasi, baik itu website, mobile dan lainnya.
+Core value dari bahasa pemrograman Go yakni:
+   - Simplicity
+   - Readability
+   - Productivity
+
+2. Aturan Bahasa Pemrograman Go yang Sedang Dikerjakan
+  - Package
+    Package merupakan pengelompokan folder beserta file pada golang. pada golang terdapat package khusus yakni 'package main'. Program Golang tidak akan dapat dijalankan tanpa package main
+
+  - Library
+    Pada Golang, untuk menggunakan library menggunakan perintah 'import'. Jika library sudah tersedia, maka library hanya tinggal dipanggil menggunakan perintah 'import namalibrary'. 
+    Jika library belum tersedia, maka kita harus menginstall library yang kita butuhkan menggunakan perintah 'go get namalibrary' pada terminal
+
+  - Func main
+    Sama halnya seperti java *cmiiw, func main merupakan function/method utama yang secara default dijalankan saat pertama kali program dijalankan
+
+  - Variabel
+    Pada Golang, pembuatan variabel terdapat 2 cara
+      1. Menggunakan tipe data
+          Ex: var numbers int = 1234
+      2. Tanpa menggunakan tipe data
+          Ex: - var numbers = 1234  atau
+              - numbers := 1234
+
+  - Komentar
+    Pada Golang, dalam membuat komentar, tidak jauh berbeda dengan bahasa pemrogaraman lainnya seperti java, javascript, php.
+    Kita dapat menggunakan simbol '//' dalam membuat komentar
+    
